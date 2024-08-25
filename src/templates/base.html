@@ -12,7 +12,7 @@
     {% endblock content %}
 
     <!-- Include the reload script -->
-    {% load django_browser_reload %}
-    {% django_browser_reload_script %}
+    {% comment %} {% load django_browser_reload %}
+    {% django_browser_reload_script %} {% endcomment %}
 </body>
 </html>
