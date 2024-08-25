@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     
     'visits',
     
-    "django_browser_reload",
+    # "django_browser_reload",
 ]
 
 MIDDLEWARE = [
